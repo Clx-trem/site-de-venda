@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
@@ -43,7 +42,7 @@ main{padding:120px 16px 40px;max-width:1100px;margin:0 auto}
 /* Carrinho flutuante */
 #cart-icon{position:fixed;bottom:90px;right:20px;width:60px;height:60px;background:var(--accent);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,0.2);z-index:10001;}
 #cart-icon img{width:30px;height:30px;}
-#cart-panel{position:fixed;bottom:20px;right:90px;width:320px;max-height:400px;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.2);overflow-y:auto;padding:12px;display:none;flex-direction:column;z-index:10001;}
+#cart-panel{position:fixed;bottom:20px;right:90px;width:320px;max-height:450px;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.2);overflow-y:auto;padding:12px;display:none;flex-direction:column;z-index:10001;}
 #cart-panel h3{margin-bottom:8px;color:var(--accent)}
 .cart-item{display:flex;justify-content:space-between;margin-bottom:8px;border-bottom:1px solid #eee;padding-bottom:6px}
 .cart-item span{font-size:14px}
@@ -127,7 +126,7 @@ main{padding:120px 16px 40px;max-width:1100px;margin:0 auto}
 
 <!-- Carrinho flutuante -->
 <div id="cart-icon">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Shopping_cart_font_awesome.svg" alt="Carrinho">
+  <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="Carrinho">
 </div>
 <div id="cart-panel">
   <h3>Carrinho</h3>
