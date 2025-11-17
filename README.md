@@ -32,24 +32,19 @@ main{padding:120px 16px 40px;max-width:1100px;margin:0 auto}
 .cta{display:inline-block;margin-top:8px;background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:700;cursor:pointer}
 .avisos{margin-top:40px;background:#fff;border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
 .avisos h3{margin-bottom:8px;color:var(--accent)}
-/* Floating WhatsApp button */
 .floating-buttons{position:fixed;bottom:20px;right:20px;display:flex;gap:12px;z-index:10000}
 .floating-buttons a{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(2,6,23,0.2);transition:transform .15s}
 .floating-buttons a img{width:28px;height:28px}
 .floating-buttons a:hover{transform:scale(1.06)}
 .floating-buttons a.whatsapp{background:#25D366}
-
-/* Carrinho flutuante */
 #cart-icon{position:fixed;bottom:90px;right:20px;width:60px;height:60px;background:var(--accent);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,0.2);z-index:10001;}
 #cart-icon img{width:30px;height:30px;}
-#cart-panel{position:fixed;bottom:20px;right:90px;width:320px;max-height:450px;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.2);overflow-y:auto;padding:12px;display:none;flex-direction:column;z-index:10001;}
+#cart-panel{position:fixed;bottom:20px;right:90px;width:320px;max-height:500px;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.2);overflow-y:auto;padding:12px;display:none;flex-direction:column;z-index:10001;}
 #cart-panel h3{margin-bottom:8px;color:var(--accent)}
 .cart-item{display:flex;justify-content:space-between;margin-bottom:8px;border-bottom:1px solid #eee;padding-bottom:6px}
 .cart-item span{font-size:14px}
 .remove-btn{cursor:pointer;color:#ff4d4d;font-weight:700;font-size:14px}
 #checkout-btn{margin-top:8px;padding:8px;background:var(--accent);color:#fff;border:none;border-radius:8px;cursor:pointer;font-weight:700}
-
-/* Formulário de Finalização */
 #checkout-form{display:none;flex-direction:column;margin-top:8px}
 #checkout-form input{margin-bottom:8px;padding:6px 8px;border:1px solid #ccc;border-radius:6px;font-size:14px}
 #checkout-form button{padding:8px;background:var(--accent);color:#fff;border:none;border-radius:8px;cursor:pointer;font-weight:700}
@@ -114,6 +109,19 @@ main{padding:120px 16px 40px;max-width:1100px;margin:0 auto}
       </div>
     </div>
 
+  </div>
+
+  <!-- Seção de Informações Importantes -->
+  <div class="avisos">
+    <h3>Informações importantes</h3>
+    <p>Tempo de locação: 4 horas. Caso precise de horário estendido ou transporte fora das regiões atendidas, entre em contato.</p>
+    
+    <h3>Como comprar</h3>
+    <ol>
+      <li>Entre em contato por WhatsApp: <a href="https://wa.me/5521990819172" target="_blank">(21) 99081-9172</a></li>
+      <li>Combine o kit e o endereço de entrega.</li>
+      <li>Pagamento: na hora da entrega.</li>
+    </ol>
   </div>
 </main>
 
