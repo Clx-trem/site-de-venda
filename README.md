@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CasaRes Play - Loja CLX</title>
+<title>Site De Vendas - Loja CLX</title>
 
 <!-- Swiper.js -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -53,38 +53,36 @@ main{padding:120px 16px 40px;max-width:1100px;margin:0 auto}
 <body>
 
 <header>
-  <h1>CasaRes Play</h1>
-  <p>Aluguel e venda de pelúcias — diversão garantida nas festas!</p>
+  <h1>Site De Vendas</h1>
+  <p>Vendas — De artesanato</p>
 </header>
 
 <main>
-  <h2 class="fundo-branco">Venda de Pelúcias 🧸</h2>
+  <h2 class="fundo-branco">Artesanato</h2>
   <div class="pricing">
-
-    <div class="pkg" data-name="Kit com 10 Pelúcias" data-price="150">
+    <div class="pkg" data-name="artesanato 1" data-price="60">
       <div class="swiper pacoteSwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="pelucia10a.jpg" alt="Kit 10 pelúcias - 1"></div>
-          <div class="swiper-slide"><img src="pelucia10b.jpg" alt="Kit 10 pelúcias - 2"></div>
+          <div class="swiper-slide"><img src="artesanato10a.jpg" alt="artesanato 1"></div>
+          <div class="swiper-slide"><img src="artesanato10b.jpg" alt="artesanato 2"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
       <div class="pkg-content">
-        <h3>Kit com 10 Pelúcias</h3>
-        <div class="price">R$ 150</div>
+        <h3>Artesanato</h3>
+        <div class="price">R$ 60</div>
         <div class="etiquetas">
           <span class="etiqueta">Entrega Fácil</span>
           <span class="etiqueta">Frete Grátis</span>
         </div>
         <ul>
-          <li>10 pelúcias sortidas</li>
+          <li>artesanato</li>
           <li>Qualidade premium</li>
           <li>Envio combinado pelo WhatsApp</li>
         </ul>
         <a class="cta add-to-cart">Adicionar ao Carrinho</a>
       </div>
     </div>
-
     <div class="pkg" data-name="Kit com 20 Pelúcias" data-price="280">
       <div class="swiper pacoteSwiper">
         <div class="swiper-wrapper">
